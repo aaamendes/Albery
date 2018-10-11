@@ -1,5 +1,5 @@
 /*!
- * AlBerry
+ * Albery
  * by Albert Mendes
  *
  * Copyright 2018 Albert Mendes
