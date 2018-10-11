@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/albery.css" type="text/css">
+	</head>
+
+	<body>
+		<div class="albery-container">
+
+			<div class="albery-wrapper">
+
+				<div class="albery-item">
+					<img src="img/1.jpg" alt="">
+				</div>
+				<div class="albery-item">
+					<img src="img/2.jpg" alt="">
+				</div>
+				<div class="albery-item">
+					<img src="img/3.jpg" alt="">
+				</div>
+				<div class="albery-item">
+					<img src="img/4.jpg" alt="">
+				</div>
+				<div class="albery-item">
+					<img src="img/5.jpg" alt="">
+				</div>
+				<div class="albery-item">
+					<img src="img/6.jpg" alt="">
+				</div>
+				<div class="albery-item">
+					<img src="img/7.jpg" alt="">
+				</div>
+
+			</div>
+
+			<div class="move-right">
+				<a href="#" id="rightArrow">▶</a>
+			</div>
+			<div class="move-left">
+				<a href="#" id="leftArrow">◀</a>
+			</div>
+
+		</div>
+
+		<div class="pagination-container">
+			<div class="pagination-wrapper">
+				<div class="pagination-item" data-item="1">
+					<img src="img/1_thumb.jpg" alt="">
+				</div>
+				<div class="pagination-item" data-item="2">
+					<img src="img/2_thumb.jpg" alt="">
+				</div>
+				<div class="pagination-item" data-item="3">
+					<img src="img/3_thumb.jpg" alt="">
+				</div>
+				<div class="pagination-item" data-item="4">
+					<img src="img/4_thumb.jpg" alt="">
+				</div>
+				<div class="pagination-item" data-item="5">
+					<img src="img/5_thumb.jpg" alt="">
+				</div>
+				<div class="pagination-item" data-item="6">
+					<img src="img/6_thumb.jpg" alt="">
+				</div>
+				<div class="pagination-item" data-item="7">
+					<img src="img/7_thumb.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+	<script src="js/albery.js"></script>
+	<script>
+		$(".albery-container").albery({
+			speed: 500,
+			imgWidth: 600,
+		});
+	</script>
+	</body>
+</html>
