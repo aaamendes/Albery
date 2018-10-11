@@ -4,7 +4,7 @@
  *
  * Copyright 2018 Albert Mendes
  * Released under the MIT license
- * 
+ * https://github.com/albertmendes/Albery/blob/master/LICENSE
  *
  * @preserve
  */
