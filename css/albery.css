@@ -1,7 +1,9 @@
 .albery-container, .pagination-container {
 	position: relative;
-	margin-left: auto;
-	margin-right: auto;
+	/* center it */
+
+	/*margin-left: auto;
+	margin-right: auto;*/
 	width: 400px;
 	overflow: hidden;
 }
@@ -15,7 +17,7 @@
 	position: relative;
 	float: left;
 	width: 400px;
-	cursor: zoom-in;
+	/*cursor: zoom-in;*/
 }
 .albery-item img {
 	width: 100%;
@@ -31,13 +33,23 @@
 	justify-content: center;
 }
 .move-left a, .move-right a {
+	display: block;
 	text-decoration: none;
-	color: rgba(255,255,255,0.3);
-	font-size: 55px;
+	color: rgba(255,255,255,0.5);
 	transition: all .5s;
+	border-top: 34px solid transparent;
+	border-bottom: 34px solid transparent;
+	width: 0;
+	height: 0;
 }
 .move-left a:hover, .move-right a:hover {
 	color: rgba(255,255,255,0.9);
+}
+.move-left a {
+	border-right: 34px solid rgba(255,255,255,0.5);
+}
+.move-right a {
+	border-left: 34px solid rgba(255,255,255,0.5);
 }
 
 .move-left {
